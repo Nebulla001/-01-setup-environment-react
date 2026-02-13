@@ -1,6 +1,6 @@
 import Profile from "./profile";
 
-export function Gallery() {
+export default function Gallery() {
   return (
     <div className="columns-3">
       <Profile />

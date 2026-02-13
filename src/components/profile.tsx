@@ -7,11 +7,7 @@ export default function Profile() {
       alt="Katherine Johnson"
       width={100}
       height={100}
-      style={{
-        maxWidth: "100%",
-        height: "auto",
-        margin: "13px"
-      }}
+      style={{ margin: "13px" }}
     />
   );
 }
