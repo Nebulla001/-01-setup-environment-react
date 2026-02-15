@@ -8,6 +8,16 @@ Fitur yang tersedia:
 - API routes (login, products, orders)
 - Navbar responsif
 
+## Screenshot
+
+![Halaman Home](screenshots/home.png)
+![Halaman About](screenshots/about.png)
+![Halaman Login](screenshots/login.png)
+![Halaman Produk](screenshots/products.png)
+![Halaman Pesanan](screenshots/pesanan.png)
+![Halaman Contact](screenshots/contact.png)
+
+
 ## Cara Menjalankan
 1. Clone repository:
    ```bash
