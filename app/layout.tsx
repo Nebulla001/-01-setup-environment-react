@@ -1,19 +1,13 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import Navbar from "../src/components/Navbar";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-export const metadata: Metadata = {
-  title: "Belajar Komponen",
-  description: "Web Enterprise praktikum",
-};
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        <div className="pt-5 mt-5">{children}</div>
+      </body>
     </html>
   );
 }
